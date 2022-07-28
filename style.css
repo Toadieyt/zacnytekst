@@ -65,6 +65,10 @@ main {
     color: white;
 }
 
+span {
+    font-size: 40px;
+}
+
 p {
     width: 600px;
     font-size: 30px;
