@@ -23,7 +23,7 @@ header {
     background-color: #1F464D;
 }
 
-.kontakt-text {
+.kontakt-text, .góra-text {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     color: #408F9C;
@@ -32,11 +32,11 @@ header {
     font-size: 20px;
 }
 
-.kontakt-text:hover {
+.kontakt-text:hover, .góra-text:hover {
     color: white;
 }
 
-.kontakt-text::before {
+.kontakt-text::before, .góra-text::before {
     content: "";
     position: absolute;
     display: block;
@@ -49,30 +49,44 @@ header {
     transition: transform 0.3s ease;
 }
 
-.kontakt-text:hover::before {
+.kontakt-text:hover::before, .góra-text:hover::before {
     transform: scaleX(1);
 }
+
+/*----------MAIN------------*/
 
 main {
     display: flex;
     flex-flow: row wrap;
+    margin-top: -100px;
     padding: 200px;
-    justify-content: space-between;
-    gap: 100px;
+    justify-content: center;
+    gap: 180px;
     align-items: center;
     min-height: 100%;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-span {
+.tytuł {
     font-size: 40px;
 }
 
-p {
+.info {
+    color: #1F464D;
+}
+
+main p {
+    padding: 20px;
     width: 600px;
+    background-color: #008B9C;
+}
+
+p {
     font-size: 30px;
 }
+
+/*----------FOOTER------------*/
 
 footer {
     display: flex;
@@ -81,7 +95,7 @@ footer {
     align-items: center;
     padding-top: 20px;
     font-size: 30px;
-    height: 100px;
+    height: 120px;
     width: 100%;
     margin: 0;
     background-color: #1F464D;
@@ -91,10 +105,9 @@ footer {
     width: 100%;
 }
 
-.kontakt div {
+.kontakt > div {
     display: flex;
-    width: 100px;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     font-size: 30px;
@@ -103,10 +116,10 @@ footer {
 .kontakt {
     display: flex;
     flex-flow: row wrap;
-    width: 400px;
-    margin-right: 10%;
+    width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
     color: white;
 }
 
