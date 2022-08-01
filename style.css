@@ -60,9 +60,9 @@ main {
     flex-flow: row wrap;
     margin-top: -100px;
     padding: 200px;
-    justify-content: center;
+    justify-content: start;
     gap: 180px;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100%;
     font-family: 'Montserrat', sans-serif;
     color: white;
