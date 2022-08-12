@@ -96,9 +96,10 @@ a:hover {
     color: #008B9C;
 }
 
-main p {
+main p, .uwaga {
     padding: 20px;
     width: 700px;
+    font-family: 'Montserrat', sans-serif;
     background-color: #008B9C;
 }
 
