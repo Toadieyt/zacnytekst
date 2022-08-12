@@ -68,13 +68,32 @@ main {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #1F464D;
+}
+
 .tytuł {
     font-size: 40px;
     color: #1C493D;
 }
 
+.tytuł2 {
+    font-size: 40px;
+    color: #408F5C;
+}
+
 .info {
     color: #1F464D;
+}
+
+.info2 {
+    color: #008B9C;
 }
 
 main p {
@@ -85,6 +104,10 @@ main p {
 
 p {
     font-size: 30px;
+}
+
+.p2 {
+    background-color: #1F464D;
 }
 
 /*----------FOOTER------------*/
